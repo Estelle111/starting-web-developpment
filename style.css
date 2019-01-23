@@ -1,0 +1,42 @@
+body {
+    background-color: #dedae0;
+    display: grid;
+    grid-template-areas: "a"
+                         "b"
+                         "c";
+    justify-content: center;
+}
+
+.presentation {
+    grid-area: a;
+    background-color: white;
+    width: 400px;
+    text-align: justify;
+}
+
+.tim {
+    width: 200px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+h1 {
+    color: #d83434;
+    text-align: center
+}
+
+h2 {
+    text-align: center;
+}
+
+.social {
+    grid-area: b;
+    background-color: white;
+    width: 400px;
+}
+
+.films {
+    grid-area: c;
+    background-color: white;
+    width: 400px;
+}

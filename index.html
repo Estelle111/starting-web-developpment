@@ -6,37 +6,51 @@
         <meta http-equiv="X-UA-Compatible" content="ie=edge">
         <title>Timmy</title>
         <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700|Montserrat:400,700">
+        <link href="https://use.fontawesome.com/releases/v5.0.8/css/all.css" rel="stylesheet">
     </head>
     <body>
-        <div class="presentation">
-            <div class="tim"><img src="images/tim.jpeg" alt="tim" style="width:200px;"></div>
-            <h1>Tim Berners-Lee</h1>
-            <h2>Inventor of HTML</h2>
-            <p>Tim Berners-Lee in the <strong>inventor</strong> of the Web. In 1989, Tim was working
-            in a commputing services section of CERN when he came up with the concept; at the time he had no idea that
-            it would be implemented on such an <strong>enormous scale</strong>.</p>
-            <p>See for yourself</p>
-        </div>
-        <div class="social">
-            <ul>
-                <li></li>
-                <li></li>
-                <li></li>
-            </ul>
-        </div>
-        <div class="films">
-            <h2>His Favorite movies</h2>
-            <div class="stanley"><img src="images/stanley.jpeg" alt="Space Odyssey"></div>
-            <h3>2001 - Space Odyssey</h3>
-            <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, 
-            with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
-            <div class="tati"><img src="images/tati.jpeg" alt="Les vacances de monsieur Hulot"></div>
-            <h3>Monsieur Hulot</h3>
-            <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
-            <div class="alien"><img src="images/alien.jpeg" alt="alien"></div>
-            <h3>Alien</h3>
-            <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. 
-            After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+        <div class="container">
+            <div class="base presentation">
+                <div class="cadrePhoto"><img class="photo" src="images/tim.jpeg" alt="tim"></div>
+                <h1>Tim Berners-Lee</h1>
+                <h2>Inventor of HTML</h2>
+                <p>Tim Berners-Lee in the <strong>inventor</strong> of the Web. In 1989, Tim was working
+                in a commputing services section of CERN when he came up with the concept; at the time he had no idea that
+                it would be implemented on such an <strong>enormous scale</strong>.</p>
+                <a class="link" href="https://fr.wikipedia.org/wiki/Tim_Berners-Lee">See for yourself</a>
+            </div>
+            <div class="base social">
+                <div><i class="fab fa-facebook-f"></i></div>
+                <div><i class="fab fa-linkedin-in"></i></div>
+                <div><i class="fab fa-twitter"></i></div>
+            </div>
+            <div class="base movies">
+                <h2>His Favorite movies</h2>
+                <div class="film">
+                    <div><img class="image" src="images/stanley.jpeg" alt="Space Odyssey"></div>
+                    <div class="text">
+                        <h3>2001 - Space Odyssey</h3>
+                        <p>Humanity finds a mysterious, obviously artificial, object buried beneath the Lunar surface and, 
+                        with the intelligent computer H.A.L. 9000, sets off on a quest.</p>
+                    </div>
+                </div>
+                <div class="film">
+                    <div><img class="image" src="images/tati.jpeg" alt="Les vacances de monsieur Hulot"></div>
+                    <div class="text">
+                        <h3>Monsieur Hulot</h3>
+                        <p>Monsieur Hulot comes to a beachside hotel for a vacation, where he accidentally (but good-naturedly) causes havoc.</p>
+                    </div>
+                </div>
+                <div class="film">
+                    <div><img class="image" src="images/alien.jpeg" alt="alien"></div>
+                    <div class="text">
+                        <h3>Alien</h3>
+                        <p>The commercial vessel Nostromo receives a distress call from an unexplored planet. 
+                        After searching for survivors, the crew heads home only to realize that a deadly bioform has joined them.</p>
+                    </div>
+                </div>
+            </div>
         </div>
     </body>
 </html>

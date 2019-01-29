@@ -1,4 +1,4 @@
-# Exercise 8 // starting-web-developpment
+# Exercise 8 // [starting-web-developpment](https://estelle111.github.io/starting-web-developpment/)
 
 ## Presentation
 Reproduce an identical web page with html and css

@@ -1,17 +1,26 @@
 # Exercise 8 // [starting-web-developpment](https://estelle111.github.io/starting-web-developpment/)
 
-## Presentation
+## What ?
 Reproduce an identical web page
 
-## Built with
+## How ?
+### Using :
 * html
 * css
+* scss
 
-## Difficulties
-* Create a clear and strong basic structure 
+## Challenges ?
+* Create a clear and strong basic structure with indentation
 * Choose the right layout that suits the exercise and suits me
 * Customize [Font awesome](https://origin.fontawesome.com/) icons into local css file
-* Make it responsive
+* Start nesting and using variables with sass
+* Make it responsive using minwidth, flex-box, @media,..
 
-## Author
+## Where ?
+BeCode
+
+## When ?
+January 2019
+
+## Who ?
 Estelle Mol
